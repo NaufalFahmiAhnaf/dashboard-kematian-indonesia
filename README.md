@@ -2,7 +2,7 @@
 
 > Dashboard interaktif yang memvisualisasikan data tren dan penyebab kematian di Indonesia berdasarkan data resmi Profil Kesehatan Kementerian Kesehatan RI tahun 2000–2021.
 
-🚀 Demo: [https://tubes-visdat-kelompok4.vercel.app](https://tubes-visdat-kelompok4.vercel.app) *(Link Vercel setelah di-deploy)*
+🚀 Demo: [https://naufalfahmiahnaf-kelompok1.vercel.app/) *(Link Vercel setelah di-deploy)*
 
 ## Isi Dashboard
 - **Chart 1: Tren Kematian Tahunan (Line Chart)** — Menampilkan pergerakan total kematian dari tahun ke tahun secara keseluruhan maupun terbagi berdasarkan kategori (Penyakit & Bencana Non-Alam, Bencana Alam, dan Bencana Sosial).
