@@ -45,7 +45,7 @@ Buka `http://localhost:3000` di browser Anda.
 - **Vercel** (Hosting static website gratis)
 
 ## Anggota Kelompok
-- **Nama Anggota 1** (NIM 1XXXXXX) - Peran: Frontend & Layouting
+- **Naufal Fahmi Ahnaf** (1203230034) - Peran: Frontend & Layouting
 - **Nama Anggota 2** (NIM 2XXXXXX) - Peran: Data Cleansing & Processing
 - **Nama Anggota 3** (NIM 3XXXXXX) - Peran: Chart.js Integration
 - **Nama Anggota 4** (NIM 4XXXXXX) - Peran: Deployment & Documentation
