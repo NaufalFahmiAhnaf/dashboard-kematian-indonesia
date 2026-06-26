@@ -5232,16 +5232,16 @@ const elPageInfo = document.getElementById('page-info');
 
 // Theme Colors
 const COLORS = {
-  cyan: '#06b6d4',
-  blue: '#3b82f6',
-  emerald: '#10b981',
-  rose: '#f43f5e',
-  amber: '#f59e0b',
-  bgsecondary: '#0f172a',
-  textPrimary: '#f8fafc',
-  textSecondary: '#94a3b8',
-  border: 'rgba(255, 255, 255, 0.08)',
-  gridLine: 'rgba(255, 255, 255, 0.04)'
+  cyan: '#2DB5E8',
+  blue: '#1A5EA8',
+  emerald: '#1A7A5E',
+  rose: '#C0392B',
+  amber: '#D4850A',
+  bgsecondary: '#EAF0F8',
+  textPrimary: '#1A2E4A',
+  textSecondary: '#4A6080',
+  border: '#D0DEF0',
+  gridLine: '#E8EFF8'
 };
 
 // Count-up animation for numbers
@@ -5348,11 +5348,12 @@ function initCharts() {
         },
         tooltip: {
           padding: 12,
-          backgroundColor: 'rgba(15, 23, 42, 0.95)',
-          titleColor: '#fff',
+          backgroundColor: '#1A2E4A',
+          titleColor: '#FFFFFF',
           titleFont: { family: 'Plus Jakarta Sans', weight: 'bold' },
           bodyFont: { family: 'Plus Jakarta Sans' },
-          borderColor: 'rgba(255, 255, 255, 0.1)',
+          bodyColor: '#D0DEF0',
+          borderColor: '#2DB5E8',
           borderWidth: 1
         }
       },
@@ -5391,9 +5392,10 @@ function initCharts() {
         },
         tooltip: {
           padding: 12,
-          backgroundColor: 'rgba(15, 23, 42, 0.95)',
-          titleColor: '#fff',
-          bodyFont: { family: 'Plus Jakarta Sans' }
+          backgroundColor: '#1A2E4A',
+          titleColor: '#FFFFFF',
+          bodyFont: { family: 'Plus Jakarta Sans' },
+          bodyColor: '#D0DEF0'
         }
       },
       cutout: '65%'
@@ -5416,8 +5418,9 @@ function initCharts() {
         legend: { display: false },
         tooltip: {
           padding: 12,
-          backgroundColor: 'rgba(15, 23, 42, 0.95)',
-          bodyFont: { family: 'Plus Jakarta Sans' }
+          backgroundColor: '#1A2E4A',
+          bodyFont: { family: 'Plus Jakarta Sans' },
+          bodyColor: '#D0DEF0'
         }
       },
       scales: {
@@ -5603,7 +5606,7 @@ function updateDoughnutChart(deathsByType) {
   doughnutChart.data.datasets = [{
     data: dataValues,
     backgroundColor: [COLORS.blue, COLORS.amber, COLORS.rose],
-    borderColor: COLORS.bgsecondary,
+    borderColor: '#EAF0F8',
     borderWidth: 2,
     hoverOffset: 10
   }];
@@ -5627,8 +5630,8 @@ function updateBarChart(deathsByCause) {
   barChart.data.labels = labels;
   barChart.data.datasets = [{
     data: dataValues,
-    backgroundColor: 'rgba(6, 182, 212, 0.75)',
-    hoverBackgroundColor: COLORS.cyan,
+    backgroundColor: 'rgba(26, 94, 168, 0.75)',   // <-- ganti ini
+    hoverBackgroundColor: '#2DB5E8',   
     borderRadius: 6,
     borderWidth: 0,
     barPercentage: 0.65
