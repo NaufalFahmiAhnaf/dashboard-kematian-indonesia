@@ -2,7 +2,7 @@
 
 > Dashboard interaktif yang memvisualisasikan data tren dan penyebab kematian di Indonesia berdasarkan data resmi Profil Kesehatan Kementerian Kesehatan RI tahun 2000–2021.
 
-🚀 Demo: [https://naufalfahmiahnaf-kelompok1.vercel.app/) *(Link Vercel setelah di-deploy)*
+Demo: [https://naufalfahmiahnaf-kelompok1.vercel.app] *(Link Vercel setelah di-deploy)*
 
 ## Isi Dashboard
 - **Chart 1: Tren Kematian Tahunan (Line Chart)** — Menampilkan pergerakan total kematian dari tahun ke tahun secara keseluruhan maupun terbagi berdasarkan kategori (Penyakit & Bencana Non-Alam, Bencana Alam, dan Bencana Sosial).
@@ -45,7 +45,9 @@ Buka `http://localhost:3000` di browser Anda.
 - **Vercel** (Hosting static website gratis)
 
 ## Anggota Kelompok
-- **Naufal Fahmi Ahnaf** (1203230034) - Peran: Frontend & Layouting
-- **Nama Anggota 2** (NIM 2XXXXXX) - Peran: Data Cleansing & Processing
-- **Nama Anggota 3** (NIM 3XXXXXX) - Peran: Chart.js Integration
-- **Nama Anggota 4** (NIM 4XXXXXX) - Peran: Deployment & Documentation
+- **Naufal Fahmi Ahnaf** (1203230034) - Frontend & Layouting 
+- **Ahmad Pasha M** (1203230114) - Data Collecting & Preprocessing 
+- **Azka Zafran A** (1203230021) - Chart.js Integration 
+- **Cahyaning E. W. Lestari** (1203220089) - Interactivity & Filter Logic 
+- **Haidar Fulca K** (1203230077) - Animasi & UI Polish 
+- **Hafizhah Nur Zahira** (1203230024) - Deployment & Documentation 
